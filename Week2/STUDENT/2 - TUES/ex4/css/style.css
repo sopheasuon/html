@@ -1,0 +1,25 @@
+.grid-container {
+    width: 80%;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: auto auto auto; 
+}
+
+.grid-item {
+    padding: 10px;
+    background: #08ac90;
+    font-size: 40px;
+    border: 2px solid;
+}
+.item1 {
+    /* ================= Your code start here ================ */
+    display: grid;
+    grid-column-end: span 3;
+    /* =================== End code ========================== */
+}
+.item2 {
+    /* ================= Your code start here ================ */
+   display: grid;
+   grid-row-end: span 3;
+    /* =================== End code ========================== */
+}

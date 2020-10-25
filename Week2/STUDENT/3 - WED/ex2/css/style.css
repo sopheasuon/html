@@ -1,0 +1,35 @@
+/* Your style */
+body{
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    
+}
+caption{
+    background: rgb(127, 87, 238);
+    font-family: sans-serif;
+    padding: 10px;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+tr,
+td {
+    border-bottom: 1px solid rgb(216, 208, 208);
+    padding: 10px;
+    
+}
+th{
+    padding: 10px;
+    text-transform: uppercase;
+    background: rgb(166, 166, 245);
+    color: #fff;
+    text-align: left;
+    
+}

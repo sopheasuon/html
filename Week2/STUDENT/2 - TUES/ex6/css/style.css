@@ -1,0 +1,41 @@
+.grid-container {
+    width: 80%;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    /* ================= Your code start here ================ */
+  
+   /* =================== End code ========================== */
+}
+
+.grid-item {
+    padding: 10px;
+    background: #08ac90;
+    font-size: 40px;
+    border: 2px solid;
+}
+.item1 {
+    /* ================= Your code start here ================ */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* =================== End code ========================== */
+}
+.item2 {
+    /* ================= Your code start here ================ */
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    /* =================== End code ========================== */
+}
+.item3 {
+    /* ================= Your code start here ================ */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* =================== End code ========================== */
+}
+.item6 {
+    /* ================= Your code start here ================ */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* =================== End code ========================== */
+}
